@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="index.css">
+  <title>Utsarga Bank</title>
+</head>
+<link rel="stylesheet" href="index.js">
+<style>
+.line{
+ height: 1.2px;
+  width: 100px;
+  position: relative;
+    bottom: 10px;
+  background: black;}
+  .contactform{
+    width: 40%;
+    padding: 40px;}
+    .registration{
+display: flex;
+justify-content: center;
+flex-direction: column;
+    align-items: center;
+    }
+</style>
+<script src="/index.js"></script>
+<body>
+  <div class="main">
+  <div class="registration">
+    <h1>Utsarga Bank</h1>
+    <div class="line">
+    </div>
+    
+  </div>
+  <div class="mainbody">
+  <div class="container">
+    <div class="header">
+      <h2>Create Account</h2>
+    </div>
+    <form id="form" class="form">
+      <div class="form-control">
+        <label for="username">Username</label>
+        <input type="text" placeholder="Utsarga08" id="username" />
+        <small>Error message</small>
+      </div>
+      <div class="form-control">
+        <label for="username">Email</label>
+        <input type="email" placeholder="utsarga.dahal8@gmail.com" id="email" />
+        <small>Error message</small>
+      </div>
+      <div class="form-control">
+        <label for="username">Password</label>
+        <input type="password" placeholder="Password" id="password"/>
+        <small>Error message</small>
+      </div>
+      <div class="form-control">
+        <label for="username">Re-Enter your password</label>
+        <input type="password" placeholder="Enter Again" id="password2"/>
+        <small>Error message</small>
+      </div>
+      <button class="button">Submit</button>
+    </form>
+      </div>
+    </div>
+    </div>
+  <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
